@@ -21,5 +21,13 @@
 			"revisionTime": "2016-11-09T21:27:32Z"
 		}
 	],
-	"rootPath": "github.com/kkdai/LineBotTemplate"
+	"rootPath": "github.com/shinetony/LineBotTemplate",
+	"heroku": {
+        "install" : [ 
+        "golang.org/x/oauth2",
+        "golang.org/x/oauth2/google",
+        "google.golang.org/api/gmail/v1"
+        ],
+        "goVersion": "go1.7.4"
+         }
 }
