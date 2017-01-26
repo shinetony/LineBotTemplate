@@ -17,8 +17,13 @@ import (
 	"log"
 	"net/http"
 	"os"
-
+	"encoding/base64"
+	"io/ioutil"
+	
 	"github.com/line/line-bot-sdk-go/linebot"
+	"golang.org/x/oauth2"
+	"golang.org/x/oauth2/google"
+	"google.golang.org/api/gmail/v1"	
 )
 
 var bot *linebot.Client
